@@ -1,2 +1,2 @@
-# website
-The Cornerstone Classical Co-Op Website.  This is an Astro project.
+# Cornerstone Classical Co-Op Website
+More to come.
