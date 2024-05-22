@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Cornerstone Classical Co-Op">
+	<main>
+		<div class="temp">
+			<img src="images/logo-cornerstone-classical-coop.svg" alt="Cornerstone Classical Co-Op" />
+			<hr />
+			<p class="muted justified">So then you are no longer strangers and aliens, but you are fellow citizens with the saints and members of the household of God, built on the foundation of the apostles and prophets, Christ Jesus himself being the cornerstone, in whom the whole structure, being joined together, grows into a holy temple in the Lord. In him you also are being built together into a dwelling place for God by the Spirit.		</p>
+			<p class="muted justified">Ephesians 2:19-22</p>
+		</div>
+
+	</main>
+</Layout>
+
+<style>
+	main {
+		height: 100vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 400;
+		line-height: 1;
+		text-align: center;
+	}
+	.temp{
+		display: flex;
+		flex-direction: column;
+		gap:1.618rem;
+		max-width: 36ch;
+		padding-top: 6rem;
+	}
+	hr {
+		border-top: 1px solid var(--color-c3-blue-0100);
+		width:100%;
+	}
+</style>
