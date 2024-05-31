@@ -18,7 +18,7 @@ import Card from '../components/Card.astro';
 	</main>
 </Layout>
 <script>
-	let theButton = document.getElementById("the-button");
+	const theButton = document.getElementById("the-button")!;
 	const stringArr = ["m", "a", "i", "l", "t", "o", ":", "c", "o", "r", "n", "e", "r", "s", "t", "o", "n", "e", "l", "o", "n", "g", "v", "i", "e", "w", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"];
 	theButton.onclick = function(event){
 		let mail = document.createElement("a");
